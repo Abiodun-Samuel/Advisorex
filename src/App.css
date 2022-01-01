@@ -1,40 +1,13 @@
-#root,
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  box-sizing: border-box;
-}
-.app {
-  height: 100%;
-  background-color: #242424;
-  background-size: cover;
+.home {
+  padding-top: 2rem;
+  background: url("./bg.jpg") no-repeat;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  background-size: cover;
+  height: 100vh;
 }
-.card {
-  background-color: aliceblue;
-  width: 40%;
-  height: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 10px;
-  padding: 2%;
+.home h2 {
+  color: #f8f8f8;
 }
-.heading {
-  display: flex;
-  align-items: center;
-  height: 580px;
-}
-button {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.home button {
+  margin-bottom: 3rem;
 }
